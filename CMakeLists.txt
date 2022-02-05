@@ -7,3 +7,5 @@ project(
     DESCRIPTION "Vanity key generator for Onion V3 addresses, on the GPU"
     HOMEPAGE_URL "https://github.com/Phytolizer/vanity-key-gen"
 )
+
+add_executable(vanity_key_gen src/main.cpp)
